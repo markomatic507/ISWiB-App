@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ISWiB</string>
+    <string name="option1">Change Workshop</string>
+    <string name="option2">About</string>
+    <string name="choose_msg">Please choose your workshop</string>
+    <string name="choose_btn">Choose</string>
+    <string name="iswib">ISWiB</string>
+    <string name="who">Marko Matić Of ISWiB IT Team</string>
+    <string name="by">By:</string>
+    <string name="iswib_logo">ISWiB Logo</string>
+    <string-array name="workshops">
+        <item>Film</item>
+        <item>Dance</item>
+        <item>3D Printing</item>
+        <item>Comic</item>
+        <item>Ecology</item>
+        <item>Yoga</item>
+        <item>Game Development</item>
+        <item>Musical</item>
+        <item>Start-Up</item>
+        <item>Cryptocurrencies</item>
+        <item>Branding And Sales</item>
+    </string-array>
+</resources>

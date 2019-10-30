@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ISWiB.iswib">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon_96"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/icon_96"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.AppCompat.Light" android:fullBackupContent="true">
+        <activity android:name="com.ISWiB.iswib.About"
+                  android:parentActivityName="com.ISWiB.iswib.MainActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.ISWiB.iswib.Sign"
+                  android:parentActivityName="com.ISWiB.iswib.MainActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.ISWiB.iswib.MainActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <data android:scheme="geo"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.ISWiB.iswib.AlertReceiver"/>
+    </application>
+
+</manifest>

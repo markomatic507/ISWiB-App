@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".Sign"
+              android:orientation="vertical">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown"/>
+
+            <EditText
+                    android:id="@+id/documentName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Document Name"/>
+
+            <EditText
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Name"/>
+
+            <EditText
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Location"/>
+
+            <EditText
+                    android:id="@+id/from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="From"/>
+
+            <EditText
+                    android:id="@+id/to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="To"/>
+
+            <EditText
+                    android:id="@+id/day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Day"/>
+
+            <EditText
+                    android:id="@+id/lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Lat"/>
+
+            <EditText
+                    android:id="@+id/lon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Lon"/>
+
+            <EditText
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="Id"/>
+
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"
+                    android:onClick="write"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
