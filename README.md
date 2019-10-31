@@ -4,7 +4,7 @@ Official ISWiB 2019 app, used during the festival. The app is written in Kotlin 
 
 ## Info
 
-First, a user has to choose his/her workshop, then the app pulls data from database and sets a notification for every event. Whenever there are new events or changes to already existing ones, old notifications are deleted and new put in their place. The app also has a secret area for quick on the go data entry.
+First, a user has to choose his/her workshop, then the app pulls data from a database and sets a notification for every event. Every event for the current day is shown on the main app page, and if a user clicks on it or on notification, they are taken to the map with the location of the event pinned. Whenever there are new events or changes to already existing ones, old notifications are deleted and new put in their place. The app also has a secret area for quick on the go data entry.
 
 
 ## Live Version
